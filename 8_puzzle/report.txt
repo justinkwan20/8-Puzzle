@@ -1,0 +1,64 @@
+Justin Kwan CS210
+3/19/17
+
+1. Hours to complete the project: 50 hours
+
+2. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Board Data Type): 1.The first issue that I had when doing Board
+   was trying to figure out Manhattan. I did not understand how to get the
+   formula mathematically so I searched up the algebraic formula online. 
+   Once I understood the formula I applied it. 2. Next issue was figuring
+   out that the goal tile’s number that it needed. I remember that the tile
+   can be calculated based off of i * N + j + 1. 3. The next issue that I 
+   encounter was inversions. I looked at the PDF and I saw that the numbers
+   were converted from a 2D array to a 1D array so I converted it to a single 
+   array. I noticed on the PDF that you can take numbers from the array and 
+   compare the numbers against any number ahead of it and see if there is 
+   any number greater than itself. If there is a number that is greater than 
+   itself then I increment a counter by 1. The issue that I encountered was 
+   when I discovered that I was not calculating numbers ahead of it since I 
+   set j in the 2nd for loop to equal zero and not i + 1 meaning that it
+   has to always be head of it. 4. The fourth issue that I encounter was 
+   with neighbors since when I ran though neighbors I kept going out of
+   bounds, so to prevent that I set boundaries like I did in percolation. 
+    
+
+   Problem 2 (Solver Data Type): 1. The main issue and the only issue that
+   I encountered in Solver was the Solver’s construction. I thought the 
+   checklist was slightly vague in this case, but majority of it I could 
+   understand. I looked on Piazza for some clarification and luckily there 
+   there were posts that helped me figure it out. I finally found that the 
+   MinPQ would have its priority based off Manhattan Order. 
+
+3. Did you receive help from anyone? List their names, status (classmate, 
+   CS210 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+
+   Justin Victoria    Classmate    He helped explain in Board that if I
+                                   look back in Percolation Project then
+                                   it was important to set limits for the
+                                   array. He helped explain how to use 
+                                   String format since I kept getting 
+                                   an error when I was running the python
+                                   test. He helped clarify details that 
+                                   the checklist was missing. 
+   
+
+   Anwesh Joshi       Classmate    He helped me understand details within 
+                                   isSolvable since the checklist was vague.
+   
+   
+   Piazza             Forum Online  Some questions that I had were brought up
+                                   in Piazza and other students replied back 
+                                   so it made it much easier to figure it out.
+
+4. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   I found that the checklist was very vague and that I struggled more on this
+   project compared to previous projects due to it being vague. 
